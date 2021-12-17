@@ -1,0 +1,203 @@
+/*-----making responsive for phone-----*/
+/*----Navigation bar starts from here-----*/
+.header{
+    min-height:50vh;
+    width:100%;
+    position:relative;
+}
+nav{
+    flex-direction:column;
+    padding:2% 6%;
+    justify-content:space-between;
+    align-items:center;
+    background-color: #000;
+}
+nav img{
+    margin-bottom:30px;
+    width:40px;
+}
+.nav-links ul li{
+    list-style:none;
+    display:inline-block;
+    padding:2px 6px;
+    position:relative;
+}
+.nav-links ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-size:11px;
+    font-family: 'Saira', sans-serif;
+}
+.right{
+    margin-top:0;
+    margin-left:0;
+    display:flex;
+    flex-direction:column;
+}
+.right h6{
+    font-size:15px;
+    color:rgb(173, 61, 27);
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight:600;
+    letter-spacing:2px;
+}
+.right h1{
+    font-size:20px;
+    margin: -7px 0;
+    font-family: 'Saira', sans-serif;
+    font-weight:600;    
+}
+.right p{
+    font-size:12px;
+}
+span{
+    font-size:18px;
+    font-weight:bold;
+    font-weight:600;
+}
+.image-box{
+width: 47%;
+height: 47%;
+position: absolute;
+bottom: 8px;
+right: -25px;
+}
+/*----Navigation bar and home section completed here-----*/
+/*---services section will starts from here----*/
+#services h1 {
+    text-align: center;
+    color: rgb(29, 27, 27);
+    padding-top: 18px;
+    font-family: 'Saira', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size:23px;
+}
+.main-part {
+    width: 100%;
+    height: 358px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+#services .row{
+    height: 160vh;
+    padding-bottom: 22px;
+}
+/*----skill container------*/
+#skill-container{
+    width: 100%;
+    height: 60vh;
+    margin-top:0;
+    padding-top: 17px;
+}
+.center {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size:20px;
+    letter-spacing:1px;
+    font-weight:500;
+}
+.row-again {
+    padding-left: 0px;
+}
+.row-again {
+    padding-left:0px;
+}
+.progress-title {
+    width: 100%;
+    height: 75px;
+}
+.progress-title h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #eee4e4;
+    margin: 0 0 5px;
+    letter-spacing: 2px;
+}
+/*-----Project section---------*/
+.testimonial .col-3 {
+    box-shadow: 0 0 20px 0px rgb(7 1 1 / 10%);
+    text-align: center;
+    padding: 8px 0;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+#project-section {
+    padding-top: 17px;
+    height:171vh;
+   }
+#project-section h1 {
+    font-size: 18px;
+}
+#project-section p {
+    font-size: 15px;
+    padding-top: 5px;
+    font-weight:600;
+}
+.col-3 h3 {
+    font-size: 17px;
+    margin-top: 14px;
+    font-family: 'Saira', sans-serif;
+    font-weight: 600;
+}
+.col-3 img {
+    border-radius: 100px;
+    margin-top: 20px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+#project-section p {
+    font-size: 17px;
+    padding-top: 3px;
+    font-weight: 600;
+}
+.col-3 a {
+    text-decoration: none;
+    color: rgb(50 36 134);
+    font-size:16px;
+}
+.row-one{
+   padding-top:35px;
+   flex-direction: column;
+   width:100%;
+}
+.row-one .col-3{
+    width:100%;
+}
+/*---About me section starts here--------*/
+#about-me{
+    margin-top:0;
+    height:100vh;
+}
+.testimonial .col-3 {
+    padding: 8px 40px;
+}
+.col-3 h3 {
+    margin-top: 29px;
+}
+#about-me h5 {
+   letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: -23px;
+    margin-bottom: 200px;
+}
+.row{
+    height:100vh;
+}
+.img-wrap {
+    width: 42%;
+    margin-left: 100px;
+    margin-top: -697px;
+}
+.footer {
+    width: 100%;
+    margin-top: 0px;
+   }
+.text-center {
+    text-align: center!important;
+    font-size:18px;
+}
