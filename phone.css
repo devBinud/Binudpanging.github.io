@@ -73,7 +73,7 @@ span{
     width: 65%;
     height: 44%;
     position: absolute;
-    bottom: 93px;
+    bottom: 144px;
     right: -24px;
 }
 /*----Navigation bar and home section completed here-----*/
@@ -81,11 +81,23 @@ span{
 #services h1 {
     text-align: center;
     color: rgb(29, 27, 27);
-    padding-top: 18px;
+    padding-top: 14px;
     font-family: 'Saira', sans-serif;
     letter-spacing: 1px;
     font-weight: 600;
     font-size:20px;
+}
+.service {
+    padding: 0px;
+    border-radius: 15px;
+}
+.service-logo {
+    width: 107px;
+    height: 105px;
+    border-radius: 50%;
+    margin: -70px auto 0;
+    background: #fff;
+    border: 7px solid #815788;
 }
 .main-part {
     width: 100%;
@@ -95,7 +107,7 @@ span{
     cursor: pointer;
 }
 #services .row {
-    height: 225vh;
+    height: 177vh;
     padding-bottom: 0px;
 }
 .service h4 {
@@ -126,7 +138,7 @@ span{
 }
 .progress-title {
     width: 100%;
-    height: 75px;
+    height: 61px;
 }
 .progress-title h3 {
     font-size: 16px;
@@ -181,7 +193,7 @@ span{
 /*---About me section starts here--------*/
 #about-me{
     margin-top:0;
-    height:129vh;
+    height:120vh;
 }
 #about-me p{
     margin-top: 0;
@@ -203,9 +215,9 @@ span{
     height:137vh;
 }
 .img-wrap {
-    width: 42%;
+    width: 31%;
     margin-left: 100px;
-    margin-top: -76px;
+    margin-top: -122px;
 }
 #about-me h2 {
     margin-bottom: 65px;
