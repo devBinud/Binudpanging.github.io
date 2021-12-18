@@ -5,6 +5,9 @@
     width:100%;
     position:relative;
 }
+.nav-links{
+    text-align: center;
+}
 nav{
     flex-direction:column;
     padding:2% 6%;
@@ -35,32 +38,33 @@ nav img{
     flex-direction:column;
 }
 .right h6{
-    font-size:15px;
+    font-size:14px;
     color:rgb(173, 61, 27);
     font-family: 'Saira Condensed', sans-serif;
     font-weight:600;
     letter-spacing:2px;
 }
 .right h1{
-    font-size:20px;
+    font-size:15px;
     margin: -7px 0;
     font-family: 'Saira', sans-serif;
     font-weight:600;    
 }
 .right p{
     font-size:12px;
+    width:51%;
 }
 span{
     font-size:18px;
     font-weight:bold;
     font-weight:600;
 }
-.image-box{
-width: 47%;
-height: 47%;
-position: absolute;
-bottom: 8px;
-right: -25px;
+.image-box {
+    width: 72%;
+    height: 52%;
+    position: absolute;
+    bottom: 43px;
+    right: -25px;
 }
 /*----Navigation bar and home section completed here-----*/
 /*---services section will starts from here----*/
@@ -80,14 +84,18 @@ right: -25px;
     position: relative;
     cursor: pointer;
 }
-#services .row{
-    height: 160vh;
-    padding-bottom: 22px;
+#services .row {
+    height: 225vh;
+    padding-bottom: 0px;
+}
+.service h4 {
+    width: 90%;
+    font-size: 18px;
 }
 /*----skill container------*/
 #skill-container{
     width: 100%;
-    height: 60vh;
+    height: 72vh;
     margin-top:0;
     padding-top: 17px;
 }
@@ -118,30 +126,28 @@ right: -25px;
     letter-spacing: 2px;
 }
 /*-----Project section---------*/
-.testimonial .col-3 {
+#project-section .testimonial .col-3 {
     box-shadow: 0 0 20px 0px rgb(7 1 1 / 10%);
     text-align: center;
-    padding: 8px 0;
+    padding: 11px 50px;
     cursor: pointer;
     transition: transform 0.5s;
 }
 #project-section {
     padding-top: 17px;
-    height:171vh;
+    height:193vh;
    }
 #project-section h1 {
     font-size: 18px;
 }
 #project-section p {
-    font-size: 15px;
-    padding-top: 5px;
-    font-weight:600;
+    font-size: 14px;
+    padding: 3px 20px;
+    font-weight: 600;
 }
 .col-3 h3 {
-    font-size: 17px;
-    margin-top: 14px;
-    font-family: 'Saira', sans-serif;
-    font-weight: 600;
+    margin-top: 0px;
+    font-size:18px;
 }
 .col-3 img {
     border-radius: 100px;
@@ -149,15 +155,10 @@ right: -25px;
     width: 90%;
     margin-bottom: 20px;
 }
-#project-section p {
-    font-size: 17px;
-    padding-top: 3px;
-    font-weight: 600;
-}
 .col-3 a {
     text-decoration: none;
     color: rgb(50 36 134);
-    font-size:16px;
+    font-size:15px;
 }
 .row-one{
    padding-top:35px;
@@ -170,34 +171,34 @@ right: -25px;
 /*---About me section starts here--------*/
 #about-me{
     margin-top:0;
-    height:100vh;
+    height:153vh;
 }
-.testimonial .col-3 {
-    padding: 8px 40px;
+#about-me p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 14px;
 }
-.col-3 h3 {
-    margin-top: 29px;
+#about-me h2 {
+    margin-bottom: 65px;
+    padding-top: 28px;
 }
 #about-me h5 {
-   letter-spacing: 1px;
+    letter-spacing: 1px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: -23px;
     margin-bottom: 200px;
 }
 .row{
-    height:100vh;
+    height:182vh;
 }
 .img-wrap {
     width: 42%;
     margin-left: 100px;
-    margin-top: -697px;
+    margin-top: -829px;
 }
-.footer {
-    width: 100%;
-    margin-top: 0px;
-   }
-.text-center {
-    text-align: center!important;
-    font-size:18px;
+#about-me h2 {
+    margin-bottom: 65px;
+    padding-top: 28px;
+    font-size:20px;
 }
