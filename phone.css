@@ -1,13 +1,16 @@
 /*-----making responsive for phone-----*/
 /*----Navigation bar starts from here-----*/
 .header{
-    min-height:50vh;
+    min-height:100vh;
     width:100%;
     position:relative;
 }
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+}
+#menuItems{
+    margin-bottom:0px;
 }
 .nav-links{
     text-align: center;
@@ -19,9 +22,10 @@ nav{
     align-items:center;
     background-color: #000;
 }
-nav img{
-    margin-bottom:30px;
-    width:40px;
+nav img {
+    margin-bottom: 10px;
+    width: 35px;
+    margin-top: 4px;
 }
 .nav-links ul li{
     list-style:none;
@@ -47,6 +51,7 @@ nav img{
     font-family: 'Saira Condensed', sans-serif;
     font-weight:600;
     letter-spacing:2px;
+    margin-top: 29px;
 }
 .right h1{
     font-size:15px;
@@ -54,9 +59,10 @@ nav img{
     font-family: 'Saira', sans-serif;
     font-weight:600;    
 }
-.right p{
-    font-size:12px;
-    width:51%;
+.right p {
+    font-size: 12px;
+    width: 50%;
+    padding-top: 40px;
 }
 span{
     font-size:18px;
@@ -64,11 +70,11 @@ span{
     font-weight:600;
 }
 .image-box {
-    width: 66%;
-    height: 52%;
+    width: 65%;
+    height: 44%;
     position: absolute;
-    bottom: 43px;
-    right: -25px;
+    bottom: 93px;
+    right: -24px;
 }
 /*----Navigation bar and home section completed here-----*/
 /*---services section will starts from here----*/
