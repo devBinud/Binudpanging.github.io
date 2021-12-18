@@ -64,7 +64,7 @@ span{
     font-weight:600;
 }
 .image-box {
-    width: 72%;
+    width: 66%;
     height: 52%;
     position: absolute;
     bottom: 43px;
@@ -175,7 +175,7 @@ span{
 /*---About me section starts here--------*/
 #about-me{
     margin-top:0;
-    height:138vh;
+    height:129vh;
 }
 #about-me p{
     margin-top: 0;
@@ -199,7 +199,7 @@ span{
 .img-wrap {
     width: 42%;
     margin-left: 100px;
-    margin-top: 0px;
+    margin-top: -76px;
 }
 #about-me h2 {
     margin-bottom: 65px;
