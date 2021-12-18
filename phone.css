@@ -5,6 +5,10 @@
     width:100%;
     position:relative;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .nav-links{
     text-align: center;
 }
@@ -75,7 +79,7 @@ span{
     font-family: 'Saira', sans-serif;
     letter-spacing: 1px;
     font-weight: 600;
-    font-size:23px;
+    font-size:20px;
 }
 .main-part {
     width: 100%;
@@ -171,7 +175,7 @@ span{
 /*---About me section starts here--------*/
 #about-me{
     margin-top:0;
-    height:153vh;
+    height:138vh;
 }
 #about-me p{
     margin-top: 0;
@@ -186,19 +190,28 @@ span{
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 14px;
-    margin-top: -23px;
-    margin-bottom: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .row{
-    height:182vh;
+    height:137vh;
 }
 .img-wrap {
     width: 42%;
     margin-left: 100px;
-    margin-top: -829px;
+    margin-top: 0px;
 }
 #about-me h2 {
     margin-bottom: 65px;
     padding-top: 28px;
     font-size:20px;
+}
+.footer img {
+    width: 59px;
+    height: 60px;
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
